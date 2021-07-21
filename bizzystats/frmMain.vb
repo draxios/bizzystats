@@ -12,7 +12,6 @@ Public Class frmMain
     End Sub
 
     Private Sub btnBrowse_Click(sender As Object, e As EventArgs) Handles btnBrowse.Click
-        fd1.SelectedPath = ""
         fd1.ShowDialog()
 
         txtLogFolder.Text = fd1.SelectedPath
