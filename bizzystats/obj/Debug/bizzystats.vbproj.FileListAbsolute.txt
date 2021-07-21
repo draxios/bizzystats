@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\bizzystats\bizzystats\bin\Debug\bizzystats.exe.config
+C:\Users\Administrator\Desktop\bizzystats\bizzystats\bin\Debug\bizzystats.exe
+C:\Users\Administrator\Desktop\bizzystats\bizzystats\bin\Debug\bizzystats.pdb
+C:\Users\Administrator\Desktop\bizzystats\bizzystats\bin\Debug\bizzystats.xml
+C:\Users\Administrator\Desktop\bizzystats\bizzystats\obj\Debug\bizzystats.vbprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\bizzystats\bizzystats\obj\Debug\Interop.MSDAOSP.dll
+C:\Users\Administrator\Desktop\bizzystats\bizzystats\obj\Debug\Interop.MSDASC.dll
+C:\Users\Administrator\Desktop\bizzystats\bizzystats\obj\Debug\bizzystats.vbproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\bizzystats\bizzystats\obj\Debug\bizzystats.frmMain.resources
+C:\Users\Administrator\Desktop\bizzystats\bizzystats\obj\Debug\bizzystats.Resources.resources
+C:\Users\Administrator\Desktop\bizzystats\bizzystats\obj\Debug\bizzystats.vbproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\bizzystats\bizzystats\obj\Debug\bizzystats.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\bizzystats\bizzystats\obj\Debug\bizzystats.exe
+C:\Users\Administrator\Desktop\bizzystats\bizzystats\obj\Debug\bizzystats.xml
+C:\Users\Administrator\Desktop\bizzystats\bizzystats\obj\Debug\bizzystats.pdb
