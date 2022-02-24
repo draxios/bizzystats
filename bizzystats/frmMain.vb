@@ -55,6 +55,34 @@ Public Class frmMain
     Private Function FindStats2(WhatToFind As String, filename As String) As ArrayList
 
         Dim tempStats As New ArrayList
+        Dim fResult As Boolean = False
+
+        Dim tempFileStrings() As String = File.ReadAllLines(filename)
+        Dim whatToFindSplit() As String = WhatToFind.Split(" ")
+
+        For Each Line As String In tempFileStrings
+
+            For Each WhatToFindString As String In whatToFindSplit
+
+                If Line.Contains(WhatToFindString) = True Then
+                    fResult = True
+                Else
+                    fResult = False
+                    Exit For
+                End If
+
+            Next
+
+            If fResult = True Then tempStats.Add(Line)
+
+        Next
+
+        Return tempStats
+    End Function
+
+    Private Function FindStatsOR(WhatToFind As String, filename As String) As ArrayList
+
+        Dim tempStats As New ArrayList
 
         Dim tempFileStrings() As String = File.ReadAllLines(filename)
         Dim whatToFindSplit() As String = WhatToFind.Split(" ")
