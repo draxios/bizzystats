@@ -94,9 +94,9 @@ Partial Class frmMain
         '
         'txtOutput
         '
-        Me.txtOutput.Location = New System.Drawing.Point(15, 60)
+        Me.txtOutput.Location = New System.Drawing.Point(15, 59)
         Me.txtOutput.Name = "txtOutput"
-        Me.txtOutput.Size = New System.Drawing.Size(403, 336)
+        Me.txtOutput.Size = New System.Drawing.Size(403, 337)
         Me.txtOutput.TabIndex = 6
         Me.txtOutput.Text = ""
         Me.txtOutput.WordWrap = False

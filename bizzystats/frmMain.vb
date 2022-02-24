@@ -56,10 +56,17 @@ Public Class frmMain
 
         Dim tempStats As New ArrayList
 
-        For Each Line As String In File.ReadLines(filename)
-            If Line.Contains(WhatToFind) = True Then
-                tempStats.Add(Line)
-            End If
+        Dim tempFileStrings() As String = File.ReadAllLines(filename)
+        Dim whatToFindSplit() As String = WhatToFind.Split(" ")
+
+        For Each WhatToFindString As String In whatToFindSplit
+
+            For Each Line As String In tempFileStrings
+                If Line.Contains(WhatToFindString) = True Then
+                    tempStats.Add(Line)
+                End If
+            Next
+
         Next
 
         Return tempStats
@@ -99,7 +106,7 @@ Public Class frmMain
 
         For Each logFile As String In currentLogsFound
             'get all the found lines
-            tempStats = FindStats(cmbFilter.Text, logFile)
+            tempStats = FindStats2(cmbFilter.Text, logFile)
 
             'clean the output here
 
